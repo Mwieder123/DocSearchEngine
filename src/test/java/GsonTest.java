@@ -3,7 +3,6 @@ import edu.yu.cs.com1320.project.stage6.impl.DocumentImpl;
 import edu.yu.cs.com1320.project.stage6.impl.DocumentPersistenceManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;

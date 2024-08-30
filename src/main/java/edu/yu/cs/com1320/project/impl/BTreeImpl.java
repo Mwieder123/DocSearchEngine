@@ -1,10 +1,7 @@
 package edu.yu.cs.com1320.project.impl;
 
 import edu.yu.cs.com1320.project.BTree;
-import edu.yu.cs.com1320.project.stage6.Document;
 import edu.yu.cs.com1320.project.stage6.PersistenceManager;
-import edu.yu.cs.com1320.project.stage6.impl.DocumentPersistenceManager;
-
 import java.io.IOException;
 
 public class BTreeImpl<Key extends Comparable<Key>, Value> implements BTree<Key, Value> {

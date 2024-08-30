@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.*;
+
 public class DocStoreStage5Test {
     private DocumentStoreImpl docStore;
     private DocumentImpl doc1;

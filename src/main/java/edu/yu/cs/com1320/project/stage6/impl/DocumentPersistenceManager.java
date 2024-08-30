@@ -4,7 +4,6 @@ import com.google.gson.*;
 import jakarta.xml.bind.DatatypeConverter;
 import edu.yu.cs.com1320.project.stage6.Document;
 import edu.yu.cs.com1320.project.stage6.PersistenceManager;
-
 import java.io.*;
 import java.lang.reflect.Type;
 import java.net.URI;
@@ -14,7 +13,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class DocumentPersistenceManager implements PersistenceManager<URI, Document> {
     private File baseDir;
@@ -23,7 +21,6 @@ public class DocumentPersistenceManager implements PersistenceManager<URI, Docum
             this.baseDir = new File(System.getProperty("user.dir"));
         }
         else{
-//            System.getProperty("user.dir") + File.separator
             this.baseDir = new File(String.valueOf(baseDir));
             this.baseDir.mkdir();
         }

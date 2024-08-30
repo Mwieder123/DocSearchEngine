@@ -3,7 +3,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import edu.yu.cs.com1320.project.stage6.impl.DocumentImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import edu.yu.cs.com1320.project.impl.MinHeapImpl;
 
 import java.net.URI;
 import java.net.URISyntaxException;

@@ -1,10 +1,7 @@
 import edu.yu.cs.com1320.project.stage6.Document;
 import edu.yu.cs.com1320.project.stage6.impl.DocumentStoreImpl;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 import edu.yu.cs.com1320.project.impl.TrieImpl;
-
 import java.io.IOException;
 import java.util.*;
 

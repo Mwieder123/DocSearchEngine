@@ -2,14 +2,12 @@ import edu.yu.cs.com1320.project.stage6.DocumentStore;
 import edu.yu.cs.com1320.project.stage6.impl.DocumentStoreImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.net.URI;
-import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 public class MyErrorsTest {

@@ -1,10 +1,8 @@
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
-import edu.yu.cs.com1320.project.stage6.Document;
 import edu.yu.cs.com1320.project.stage6.impl.DocumentImpl;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.HashMap;
 
 public class DocumentTest{

@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.*;
-
 import edu.yu.cs.com1320.project.stage6.Document;
 import edu.yu.cs.com1320.project.stage6.impl.DocumentImpl;
 import org.junit.jupiter.api.BeforeEach;
