@@ -1,3 +1,5 @@
+# DocSearchEngine
+
 This is a document storage system and search engine designed for the Data Structures course at Yeshiva University during the Spring 2024 Semester.
 
 Data Structures Implemented Include:
